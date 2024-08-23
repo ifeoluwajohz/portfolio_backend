@@ -1,7 +1,7 @@
 {
   "name": "express",
   "version": "1.0.0",
-  "main": "App.js",
+  "main": "app.js",
   "scripts": {
     "devStart": "nodemon app.js"
   },

@@ -18,7 +18,7 @@ const DbUrRI = process.env.DB_URI;
 
 mongoose.connect(DbUrRI)
 .then(() => {
-    console.log('Connected to MongoDB');
+    console.log('Connected to MongoDB Database');
 }).catch(err => {
     console.error('Error connecting to MongoDB', err);
 });
