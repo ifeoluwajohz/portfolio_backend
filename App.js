@@ -43,7 +43,7 @@ const transporter = nodemailer.createTransport({
         from: process.env.EMAIL_ADDRESS,
         to: subscriber.email,
         subject: 'Welcome to Our Newsletter!',
-        text: `Hello ${subscriber.name}, thank you for subscribing to our newsletter!`
+        text: `Hello ${subscriber.email}, thank you for subscribing to our newsletter!`
     };
 
     transporter.sendMail(mailOptions, (error, info) => {
